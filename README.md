@@ -59,5 +59,12 @@ python detector_Aditya.py iscp_pii_dataset_-_Sheet1.csv
 
 redacted_output_shyam_sunder.csv
 
+## Sample Output
+
+After running the detector, the output is saved in `redacted_output_shyam_sunder.csv` with the following format:
+
+```csv
+record_id,redacted_data_json,is_pii
 1,"{""phone"": ""98XXXXXX10"", ""order_value"": 1299}",True
 2,"{""name"": ""JXXX SXXXX"", ""email"": ""joXXX@gmail.com""}",True
+
